@@ -1,7 +1,7 @@
 import { module, test } from 'qunit';
 import { visit, currentURL, click } from '@ember/test-helpers';
 import { setupApplicationTest } from 'super-rentals/tests/helpers';
-
+//ember test --server
 module('Acceptance | super rentals', function (hooks) {
   setupApplicationTest(hooks);
 
