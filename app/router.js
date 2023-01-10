@@ -10,3 +10,5 @@ Router.map(function () {
   this.route('about');
   this.route('contact', { path: '/getting-in-touch' });
 });
+
+// tutorial->part 1-> reusable components
