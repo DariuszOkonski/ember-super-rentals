@@ -11,4 +11,4 @@ Router.map(function () {
   this.route('contact', { path: '/getting-in-touch' });
 });
 
-// tutorial->part 1-> reusable components
+// tutorial->part 1-> working with data -> accessing route models from templates
