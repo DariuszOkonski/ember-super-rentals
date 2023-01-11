@@ -9,6 +9,7 @@ export default class Router extends EmberRouter {
 Router.map(function () {
   this.route('about');
   this.route('contact', { path: '/getting-in-touch' });
+  this.route('rental', { path: '/rentals/:rental_id' });
 });
 
-// tutorial->part 1-> working with data -> accessing route models from templates
+// tutorial->part 2-> route params -> sharing common setup code between tests
