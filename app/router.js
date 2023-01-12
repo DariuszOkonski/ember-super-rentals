@@ -12,4 +12,4 @@ Router.map(function () {
   this.route('rental', { path: '/rentals/:rental_id' });
 });
 
-// tutorial->part 2-> route params -> sharing common setup code between tests
+// tutorial->part 2-> servide injection ->
